@@ -1,6 +1,11 @@
 # frappe-go
 Frappe framework API wrapper for Golang 
 
+Install : 
+
+```bash
+go get github.com/srajelli/frappe-go
+```
 Quickstart : 
 
 
