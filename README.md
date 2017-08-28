@@ -30,7 +30,7 @@ func main(){
 	doc.Resource = "john@gmail.com"
 
 	fmt.Println(frappe.Get(doc))
-
+}
 ```
 
 Examples : 
