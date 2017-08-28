@@ -20,16 +20,16 @@ func main(){
 		Application_url: "https://demo.erpnext.com",
 		User:            "Administrator",
 		Password:        "password",
-  }
-  frappe.Connect(config)
+  	}
+  	frappe.Connect(config)
 
-// getting user details 
+	// getting user details 
 
-doc := frappe.FrappeInput{}
-doc.Doctype = "User"
-doc.Resource = "john@gmail.com"
+	doc := frappe.FrappeInput{}
+	doc.Doctype = "User"
+	doc.Resource = "john@gmail.com"
 
-fmt.Println(frappe.Get(doc))
+	fmt.Println(frappe.Get(doc))
 
 ```
 
